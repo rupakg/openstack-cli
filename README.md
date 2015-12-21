@@ -14,6 +14,7 @@ Create a 'config' folder and copy the 'PROJECT-openrc.sh' there. We will mount t
  
 ## Run the CLI
 
+```
 # get the openstack cli image
 docker pull rupakg/openstack-cli
 
@@ -25,5 +26,5 @@ $ source /config/PROJECT-openrc.sh
 
 # test the cli
 $ openstack --version
-
+```
 
